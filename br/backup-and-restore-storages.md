@@ -117,7 +117,7 @@ S3 和 GCS 等云存储有时需要额外的连接配置，你可以为这类配
 | 命令行参数 | 描述 |
 |----------:|------|
 | `--s3.region` | Amazon S3 服务区域（默认为 `us-east-1`） |
-| `--s3.endpoint` | S3 兼容服务自定义端点的 URL（例如 `https://s3.example.com/`）|
+| `--s3.endpoint` | S3 兼容服务自定义端点的 URL（例如 `https://s3.example.com`）|
 | `--s3.storage-class` | 上传对象的存储类别（例如 `STANDARD`、`STANDARD_IA`） |
 | `--s3.sse` | 用于加密上传的服务器端加密算法（可以设置为空，`AES256` 或 `aws:kms`） |
 | `--s3.sse-kms-key-id` | 如果 `--s3.sse` 设置为 `aws:kms`，则使用该参数指定 KMS ID |
